@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-  <title>Titre du document</title>
+  <title>IFE V2</title>
   <link rel="stylesheet" href="css/knacss.css" media="all">
   <link rel="stylesheet" href="css/styles.css" media="all">
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Lora" rel="stylesheet">
@@ -18,9 +18,9 @@
 <body>
 
 <div id="video-bg">
-  <video autoplay controls>
+  <video loop autoplay controls>
     <!-- Default video source: -->
-    <source type="video/mp4" src="vid/video.mp4"
+    <source type="video/mp4" src="vid/video2.mp4"
             media="(orientation:landscape)">
     <source type="video/webm" src="myvid.webm"
             media="(orientation:landscape)">
@@ -35,10 +35,15 @@
   -->
 </div>
 
-  <h2 class=" center title content__title content__title--center">
+
+  <div class="container"> <h2 class="center title content__title content__title--center">
           <div id="rev-1" class="content__title__inner">Institut Français</div><br/>
           <div id="rev-2" class="content__title__inner content__title__inner--offset-1">Espagne</div>
         </h2>
+        </div>
+    
+
+ 
   <br>
 
   <!-- <img class="center" width="50%" src="img/dessin.jpg"> -->
@@ -111,7 +116,8 @@
         
         var rev1 = new RevealFx(document.querySelector('#rev-1'), {
           revealSettings : {
-            bgcolor: '#0089c7',
+            bgcolor: 'black',
+            //#0089c7
             onCover: function(contentEl, revealerEl) {
               contentEl.style.opacity = 1;
             }
@@ -121,7 +127,8 @@
 
         var rev2 = new RevealFx(document.querySelector('#rev-2'), {
           revealSettings : {
-            bgcolor: 'tomato',
+            bgcolor: '#D3D3D3',
+            //tomato
             delay: 250,
             onCover: function(contentEl, revealerEl) {
               contentEl.style.opacity = 1;

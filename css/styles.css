@@ -1,10 +1,11 @@
 /* Common styles for all menus */
 
 .title {
-	font-family: 'Crimson Text', serif;
+	/*font-family: 'Crimson Text', serif;*/
+	font-family: 'Avenir Next', Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
 	/*color: #0089c7;*/
-	color: white;
-	font-size: 3em;
+	color: black;
+	font-size: 5em;
 }
 .menu {
 	line-height: 1;
@@ -68,7 +69,7 @@
 }
 
 .menu--viola .menu__item--current .menu__link {
-	color: white;
+	color: black;
 }
 
 .menu--viola .menu__item::before,
@@ -77,7 +78,7 @@
 .menu--viola .menu__link::after {
 	content: '';
 	position: absolute;
-	background: white;
+	background: black;
 	-webkit-transition: -webkit-transform 0.2s;
 	transition: transform 0.2s;
 }
@@ -164,8 +165,8 @@
 }
 
 body {
-	/*font-family: 'Avenir Next', Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;*/
-	font-family: 'Crimson Text', serif;
+	font-family: 'Avenir Next', Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+	/*font-family: 'Crimson Text', serif;*/
 	color: #444;
 	background: #fff;
 	-webkit-font-smoothing: antialiased;
